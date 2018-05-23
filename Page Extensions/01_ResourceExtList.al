@@ -12,7 +12,7 @@ pageextension 123456701 RecourseListExt extends "Resource List"
 
         addafter(Type)
 
-         {
+        {
             field("CSD_Resource Type"; "CSD_Resource Type")
 
             {
@@ -22,27 +22,27 @@ pageextension 123456701 RecourseListExt extends "Resource List"
             {
                 Visible = ShowMaxfield;
             }
-         }
+        }
 
     }
 
-        
-        trigger OnOpenPage();
-        
-        begin
+
+    trigger OnOpenPage();
+
+    begin
 
         FilterGroup(3);
-        ShowType := (GetFilter(Type)='');
-        ShowMaxField := (GetFilter(Type)=format(Type::Machine));
+        ShowType := (GetFilter(Type) = '');
+        ShowMaxField := (GetFilter(Type) = format(Type::Machine));
         FilterGroup(0);
 
-        end;
+    end;
 
-        var
+    var
         [InDataSet]
         ShowType: Boolean;
         [InDataSet]
         ShowMaxfield: Boolean;
-          
+
 }
-    
+
