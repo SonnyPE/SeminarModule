@@ -75,31 +75,31 @@ page 123456701 "Seminar Card"
             {
                 action("Co&mments")
                 {
-                    // RunObject=page "Seminar Comment Sheet";
-                    // RunPageLink = "Table Name"=const(Seminar),"No."=field("No.");
-                    // Image = Comment;
-                    // Promoted = true;
-                    // PromotedIsBig = true;
-                    // PromotedOnly = true;
+                     RunObject=page "Seminar Comment Sheet";
+                     RunPageLink = "Table Name"=const(Seminar),"No."=field("No.");
+                     Image = Comment;
+                     Promoted = true;
+                     PromotedIsBig = true;
+                     PromotedOnly = true;
                 }
                 
                 action("Ledger Entries")
                 {
-                    // RunObject=page "Seminar Ledger Entries";
-                    // RunPageLink="Seminar No."=field("No.");
-                    // Promoted=true;
-                    // PromotedCategory=Process;
-                    // ShortcutKey="Ctrl+F7";
-                    // Image=WarrantyLedger;
+                     RunObject=page "Seminar Ledger Entries";
+                     RunPageLink="Seminar No."=field("No.");
+                     Promoted=true;
+                     PromotedCategory=Process;
+                     ShortcutKey="Ctrl+F7";
+                     Image=WarrantyLedger;
                 }
                 
                 action("&Registrations")
                 {
-                    // RunObject=page "Seminar Registration List";
-                    // RunPageLink="Seminar No."=field("No.");
-                    // Image=Timesheet;
-                    // Promoted=true;
-                    // PromotedCategory=Process;
+                     RunObject=page "Seminar Registration List";
+                     RunPageLink="Seminar No."=field("No.");
+                     Image=Timesheet;
+                     Promoted=true;
+                     PromotedCategory=Process;
                 }
                 
             }

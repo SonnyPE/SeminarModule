@@ -58,8 +58,8 @@ page 123456702 "Seminar List"
             {
                 action("Co&mments")
                 {
-                    //RunObject = page "Seminar Comment Sheet";
-                    //RunPageLink = "Tablename" = const(Seminar), "No" = Field("No.");
+                    RunObject = page "Seminar Comment Sheet";
+                    RunPageLink = "Tablename" = const(Seminar), "No" = Field("No.");
                     Image = Comment;
                 }
             }
