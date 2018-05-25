@@ -257,6 +257,12 @@ table 123456710 "Seminar Registration Header"
         {
         }
 
+        field(40;"No. Printed";Integer)
+        {
+            Caption = 'No. Printed';
+            Editable = false;            
+        }
+
 
     }
 
