@@ -109,12 +109,12 @@ page 123456701 "Seminar Card"
         {
             action("Seminar Registration")
             {
-                // RunObject= page "Seminar Registration";
-                // RunPageLink="Seminar No."=field("No.");
-                // RunPageMode=Create;
-                // Image=NewTimesheet;
-                // Promoted=true;
-                // PromotedCategory=New;
+                 RunObject= page "Seminar Registration";
+                 RunPageLink="Seminar No."=field("No.");
+                 RunPageMode=Create;
+                 Image=NewTimesheet;
+                 Promoted=true;
+                 PromotedCategory=New;
 
             }
         }
