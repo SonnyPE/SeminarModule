@@ -9,7 +9,7 @@ table 123456711 "Seminar Registration Line"
     {
         field(1;"Document No.";Code[20])
         {
-            TableRelation = "Seminar Registration Header";
+            
         }
         field(2;"Line No.";Integer)
         {
