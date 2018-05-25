@@ -12,7 +12,7 @@ page 123456742 "Seminar Manager RoleCenter"
         {
             group(Column1)
             {
-                part(Activities;"Seminar Manager Activities")
+                part(Activities;"Seminar Activities")
                 {
                 }
                 part(MySeminars;"My Seminars")
