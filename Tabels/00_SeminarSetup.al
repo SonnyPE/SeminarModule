@@ -1,6 +1,5 @@
 table 123456700 "Seminar Setup"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
-// Chapter 5 - Lab 3-1
+
 {
     Caption = 'Seminar Setup';
 

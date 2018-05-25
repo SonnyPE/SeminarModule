@@ -1,5 +1,5 @@
 page 123456701 "Seminar Card"
-// CSD1.00 - 2018-01-01 - D. E. Veloper
+
 
 {
     PageType = Card;

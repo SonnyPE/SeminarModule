@@ -1,4 +1,4 @@
-tableextension 123456701 CSD_ResourceExt extends Resource
+tableextension 123456700 CSD_ResourceExt extends Resource
 // CSD1.00 - 2018-01-01 - D. E. Veloper
 
 {
