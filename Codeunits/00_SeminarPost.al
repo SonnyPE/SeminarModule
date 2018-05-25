@@ -1,8 +1,6 @@
 codeunit 123456700 "Seminar-Post"
 {
-    // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 7 - Lab 5-2
-    //     - Created new codeunit
+    
 
     TableNo = 123456710;
 
@@ -14,7 +12,7 @@ codeunit 123456700 "Seminar-Post"
             TestField("Posting Date"); 
             TestField("Document Date"); 
             TestField("Seminar No.");
-            TestField(Duration);
+            TestField("Duration");
             TestField("Instructor Resource No.");
             TestField("Room Resource No."); 
             TestField(Status,Status::Closed);
